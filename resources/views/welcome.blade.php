@@ -48,6 +48,9 @@
             </ul>
           </li>
           <li class="nav-item">
+            <a class="nav-link fw-bolder" href="informasi">Informasi</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link fw-bolder" href="services">Menu</a>
           </li>
           <li class="nav-item">
@@ -246,18 +249,6 @@
                 </li>
               </ul>
           </div>
-          <div class="col-md-3">
-            <h4 class="fw-bold">Join Our Newsletter</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="yourmail@example.com" />
-                <button class="btn btn-subscribe" type="button" id="inputGroupFileAddon04">
-                  Subscribe
-                </button>
-              </div>
-          </div>
         </div>
       </div>
     </div>
@@ -267,10 +258,7 @@
           <div class="col-md-1"></div>
           <div class="col-md-5">
             <div class="copyright">
-              &copy; Copyright <strong>Company</strong>. All Right Reserved
-            </div>
-            <div class="credits">
-              Design by me
+              &copy; Copyright <strong>Kelompok 5</strong>. All Right Reserved
             </div>
           </div>
           <div class="col-md-5">

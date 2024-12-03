@@ -34,8 +34,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/admin/dashboard" class="brand-link">
-      <img src="/lte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Company Profile</span>
+      <img src="/lte/dist/img/Foto UMKM.jpg" alt="Foto UMKM.jpg" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">BABE THAI TEA</span>
     </a>
 
     <!-- Sidebar -->
@@ -73,7 +73,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Data Master
+                Data Website
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -81,37 +81,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <a href="/admin/sliders" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Sliders</p>
+                  <p>Data Slider</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/services" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Services</p>
+                  <p>Data Menu</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/testimonials" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Testimonials</p>
+                  <p>Data Testimoni</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/admin/portfolios" class="nav-link">
+                <a href="{{ route('informasi.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Portfolios</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/admin/clients" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Clients</p>
+                  <p>Data Informasi</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/teams" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Teams</p>
+                  <p>Data Tim</p>
                 </a>
               </li>
             </ul>
@@ -201,12 +195,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-      Anything you want
-    </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; {{ date('Y') }} <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; {{ date('Y') }} <a href="#">Kelompok 5</a>.</strong> All rights reserved.
   </footer>
 </div>
 <!-- ./wrapper -->
