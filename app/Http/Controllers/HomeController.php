@@ -7,9 +7,6 @@ class HomeController extends Controller
 {
     public function Menu()
     {
-
-        $menu = Menu::all();
-        
-        return view('home.menu', compact('menu'));
+        $menu = Menu::all(); 
     }
 }
