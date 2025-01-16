@@ -3,7 +3,7 @@
 }
 
 .carousel-caption {
-    border-top: 10px solid  #8d6a00cd;
+    border-top: 10px solid #4955fc;
     background-color: #00000094;
 }
 
@@ -12,11 +12,11 @@
 }
 
 .primary {
-   color: #8d6a00cd;
+   color: #4955fc;
 }
 
 .active {
-    color: #8d6a00cd !important;
+    color: #4955fc !important;
 }
 
 .title-container{
@@ -31,7 +31,7 @@
     display: black;
     width: 50px;
     height: 3px;
-    background-color: #8d6a00cd;
+    background-color: #4955fc;
     bottom: 0;
     left: calc(50% - 25px);
     margin-bottom: 20px;
@@ -50,7 +50,7 @@
 }
 
 .card-icon:hover {
-    color:  #8d6a00cd;
+    color: #4955fc;
 }
 
 .mansory-sizer,
@@ -76,7 +76,7 @@ a {
 
 .btn-subscribe,
 .btn-to-top {
-    background: #8d6a00cd;
+    background: #4955fc;
 }
 
 .btn-to-top {
@@ -97,7 +97,7 @@ a {
 
 .portfolio-filters .filter-active,
 .breadcumbs {
- background: #8d6a00cd;
+ background: #4955fc;
 }
 
 .breadcumbs {
@@ -128,7 +128,7 @@ object-fit: cover;
 }
 
 .btn-submit {
-    background: #8d6a00cd;
+    background: #4955fc;
     color: white;
 }
 

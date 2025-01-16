@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Informasi;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class InformasiController extends Controller
 {
@@ -85,34 +86,30 @@ class InformasiController extends Controller
      */
     public function update(Request $request, Informasi $informasi)
     {
-        // Validasi data yang dikirim
         $request->validate([
             'title' => 'required|string|max:255',
             'description' => 'required|string',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',  // validasi untuk gambar
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048', // Validasi untuk gambar
         ]);
 
-        // Update data tanpa gambar (jika gambar baru tidak dikirim)
-        $informasi->title = $request->title;
-        $informasi->description = $request->description;
+        $input = $request->all();
 
-        // Jika ada gambar yang di-upload
         if ($request->hasFile('image')) {
-            // Menghapus gambar lama jika ada
-            if ($informasi->image) {
-                Storage::delete('public/images/' . $informasi->image);
+            // Hapus gambar lama jika ada
+            if ($informasi->image && file_exists(public_path('image/' . $informasi->image))) {
+                unlink(public_path('image/' . $informasi->image));
             }
 
-            // Menyimpan gambar baru
-            $imagePath = $request->file('image')->store('images', 'public');
-            $informasi->image = basename($imagePath); // Menyimpan nama file gambar di database
+            // Simpan gambar baru
+            $imageName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('image'), $imageName);
+            $input['image'] = $imageName;
         }
 
-        // Simpan perubahan
-        $informasi->save();
+        // Update data
+        $informasi->update($input);
 
-        // Redirect setelah berhasil
-        return redirect()->route('informasi.index')->with('success', 'Informasi berhasil diperbarui');
+        return redirect()->route('informasi.index')->with('success', 'Informasi berhasil diperbarui!');
     }
 
     /**
