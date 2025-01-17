@@ -34,8 +34,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/admin/dashboard" class="brand-link">
-      <img src="/lte/dist/img/Foto UMKM.jpg" alt="Foto UMKM.jpg" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">BABE THAI TEA</span>
+      <img src="/lte/dist/img/Foto UMKM.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Babe Thai Tea</span>
     </a>
 
     <!-- Sidebar -->
@@ -43,11 +43,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="/lte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/lte/dist/img/User.png" class="img-circle elevation-2" alt="User Image">
         </div>
-        {{-- <div class="info">
+        <div class="info">
           <a href="/admin/dashboard" class="d-block">{{ Auth::user()->email; }}</a>
-        </div> --}}
+        </div>
       </div>
 
       <!-- Sidebar Menu -->
@@ -73,7 +73,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Data Website
+                Data Master
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -81,31 +81,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <a href="/admin/sliders" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Slider</p>
+                  <p>Data Sliders</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/admin/services" class="nav-link">
+                <a href="/admin/menu" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Menu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/admin/testimonials" class="nav-link">
+                <a href="/admin/promo" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Data Promo</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/admin/testimoni" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Testimoni</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('informasi.index') }}" class="nav-link">
+                <a href="/admin/informasi" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Informasi</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/admin/teams" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Tim</p>
                 </a>
               </li>
             </ul>
