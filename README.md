@@ -1,4 +1,4 @@
-![alt text](Foto_Laporan/coverSRS.jpg?raw=true)
+![alt text](Foto_Laporan/cover.png?raw=true)
 
 ## BAB I Pendahuluan
 
@@ -39,7 +39,9 @@ Babe Thai Tea merupakan suatu UMKM yang bergerak pada bidan minuman.Dalam projec
 - View About Us
 - View Informasi
 - View Testimoni
-- View Team BP3AM
+- View Menu
+- View Promo
+- View Contact
 
 Berikut ini fungsi admin yaitu:
 - Login
