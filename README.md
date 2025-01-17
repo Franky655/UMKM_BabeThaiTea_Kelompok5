@@ -96,7 +96,7 @@ Sistem UMKM Babe Thai Tea memiliki 2 pengguna yaitu admin dan Customer. Admin bi
 
 
 **2.1.3 Antarmuka perangkat keras**
-![alt text](Image/perangkatKeras.png?raw=true)
+![alt text](Image/antarmukaPk.png?raw=true)
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Sistem Parenting antara lain :
 
 PC / Laptop Untuk menjalankan Aplikasi ini.
