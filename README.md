@@ -44,22 +44,23 @@ Babe Thai Tea merupakan suatu UMKM yang bergerak pada bidan minuman.Dalam projec
 - View Promo
 - View Contact
 
-Berikut ini fungsi admin yaitu:
+**Fitur Dashboard:**
 - Login
-- Input artikel parenting
-- Input dokumentasi kegiatan
-- Input data tentang BP3AM
-- Input data contact BP3AM
-- Input data team BP3AM
-- Update data
-- Delete data
-- Edit data
+- View Dashboard
+- CRUD Slider (Input, Edit, Delete)
+- CRUD Menu (Input, Edit, Delete)
+- CRUD Promo (Input, Edit, Delete)
+- CRUD Testimoni (Input, Edit, Delete)
+- CRUD Informasi (Input, Edit, Delete)
+- Edit About Us
+- Edit Contact
+
 
 ## 2.1 Perspektif produk
-Sistem Informasi Parenting adalah sebuah sistem informasi yang diaplikasikan pada website. Terdapat 2 jenis aktor yaitu admin dan pengunjung. Pengolahan data dilakukan oleh admin pada website dan pengunjung hanya melihat informasi pada website.
+Sistem Babe Thai Tea adalah sebuah sistem yang menyediakan informasi dan product minuman  yang diaplikasikan pada website. Terdapat 2 user yaitu admin dan Customer. Data pada website  dikelola oleh admin dan pengunjung hanya dapat melihat informasi dan melakukan Testimoni  pada website
 
 **2.1.1 Antarmuka Sistem**
-![alt text](revisi/revisi1.jpg?raw=true)
+![alt text](Foto_Laporan/AntarmukaSistem.png?raw=true)
 
 Sistem Informasi Parenting memiliki 2 pengunjung yaitu admin dan pengunjung. Admin mempunyai fungsi mengelola data informasi dan Pengunjung bisa melihat informasi serta memberikan komentar.
 
