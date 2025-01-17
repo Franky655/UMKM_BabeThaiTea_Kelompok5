@@ -58,6 +58,7 @@ Babe Thai Tea merupakan suatu UMKM yang bergerak pada bidan minuman.Dalam projec
 
 ## 2.1 Perspektif produk
 Sistem Babe Thai Tea adalah sebuah sistem yang menyediakan informasi dan product minuman  yang diaplikasikan pada website. Terdapat 2 user yaitu admin dan Customer. Data pada website  dikelola oleh admin dan pengunjung hanya dapat melihat informasi dan melakukan Testimoni  pada website
+
 **2.1.1 Antarmuka Sistem**
 
 ![alt text](Foto_Laporan/AntarmukaSistem.png?raw=true)
