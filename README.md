@@ -83,13 +83,15 @@ Sistem UMKM Babe Thai Tea memiliki 2 pengguna yaitu admin dan Customer. Admin bi
 
 
 **Halaman User**
-|  |  |
-|--|--|
-| ![alt text](Foto_Laporan/dashboardUser.png) Ini merupakan tampilan luaran yang ada pada website yang bisa dijelajahi oleh pengunjung.|![alt text](Foto_Laporan/Kegiatan.png?raw=true)Tampilan About Us menampilkan tentang UMKM ini berjalan.
-|  |  |
-| ![alt text](Foto_Laporan/detailKegiatan.png?raw=true) Pada halaman pengunjung terdapat halaman lanjutan Kegiatan, jika pengunjung telah mengklik satu kegiatan yang akan dilihat, maka pada halaman ini akan tampil deskripsi dari kegiatan tersebut.|![alt text](Foto_Laporan/artikel.png?raw=true) Tampilan testimoni menampilkan customer yang memberikan review kepada produk UMKM.
-|  |  |
-| ![alt text](Foto_Laporan/Detailartikel.png?raw=true) Tampilan Promo menampilkan semua promo yang tersedia dari UMKM nya.|![alt text](Foto_Laporanvisi/tentang.png?raw=true) Tampilan Contact untuk menunjukkan lokasi serta informasi media sosial dari UMKM nya
+| Gambar | Penjelasan |
+| ------ | ------ |
+| ![alt text](Foto_Laporan/antarmuka.png?raw=true)|  Ini merupakan tampilan luaran yang ada pada website yang bisa dijelajahi oleh pengunjung.   |
+| ![alt text](Foto_Laporan/aboutCust.jpeg?raw=true)   | Tampilan About Us menampilkan tentang UMKM ini berjalan.   |
+| ![alt text](Foto_Laporan/informasiCust.jpeg?raw=true) |  Tampilan Informasi menampilkan informasi terbaru dari UMKM |
+| ![alt text](Foto_Laporan/testimoniCust.jpeg?raw=true) | Tampilan testimoni menampilkan customer yang memberikan review kepada produk UMKM  |
+| ![alt text](Foto_Laporan/menu.jpeg?raw=true)    | Tampilan Menu menampilkan semua menu atau produk dari UMKM nya  |
+| ![alt text](Foto_Laporan/promo.jpeg?raw=true)  | Tampilan Promo menampilkan semua promo yang tersedia dari UMKM nya   |
+| ![alt text](Foto_Laporan/contactCust.jpeg?raw=true)  |Tampilan Contact untuk menunjukkan lokasi serta informasi media sosial dari UMKM nya.   |
 
 
 **2.1.3 Antarmuka perangkat keras**
