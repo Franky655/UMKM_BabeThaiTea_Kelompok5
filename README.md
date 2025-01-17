@@ -68,17 +68,18 @@ Sistem UMKM Babe Thai Tea memiliki 2 pengguna yaitu admin dan Customer. Admin bi
 **2.1.2 Antarmuka Pengguna**
 
 **Halaman Admin**
-|  |  |
-|--|--|
-| ![alt text](Foto_Laporan/login.jpeg?raw=true) Dibagian ini user (admin) dapat melakukan login dengan tujuan untuk meakukan pensettingan data dari website yang ditampilkan dihalaman company profile.| ![alt text](Foto_Laporan/dashboard.jpeg?raw=true) Ini merupakan halaman utama jika user sudah bisa melakukan login.
-|  |  |
-| ![alt text](Foto_Laporan/slider.jpeg?raw=true) Ini adalah menu CRUD Slider, Admin dapat melakukan tambah data, edit data, dan hapus data.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Ini adalah menu CRUD Menu, Admin dapat melakukan tambah data, edit data, dan hapus data.
-|  |  |
-| ![alt text](Foto_Laporan/promo.jpeg?raw=true) Ini adalah menu CRUD Promo, Admin dapat melakukan tambah data, edit data, dan hapus data.| ![alt text](Foto_Laporan/informasi.jpeg?raw=true)Ini adalah menu CRUD Informasi, Admin dapat melakukan tambah data, edit data, dan hapus data.
-|  |  |
-| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Ini adalah menu CRUD Testimoni, Admin dapat melakukan tambah data, edit data, dan hapus data.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Ini adalah menu dari About Us, disini tidak menggunakan CRUD, tetapi hanya menggunakan update atau edit data, sehingga data-data yang sudah diinput sebelumnya diubah menjadi yang baru
-|  |  |
-| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Contact juga seperti itu, mengedit atau mengupdate data yang ada.| ![alt text](Foto_Laporan/TambahDataKegiatan.png?raw=true)Ini merupakan halaman luaran dari website yang nantinya sebagai tampilan yang bisa dilihat oleh customer.
+| Fitur | Gambar | Penjelasan |
+| ------ | ------ || ------ |
+| Login | ![alt text](Foto_Laporan/login.jpeg?raw=true) | Dibagian ini user (admin) dapat melakukan login dengan tujuan untuk meakukan pensettingan data dari website yang ditampilkan dihalaman company profile.   |
+| Dashboard | ![alt text](Foto_Laporan/dashboard.jpeg?raw=true)   | Ini merupakan halaman utama jika user sudah bisa melakukan login.   |
+| CRUD Slider |   ![alt text](Foto_Laporan/slider.jpeg?raw=true) | Ini adalah menu CRUD Slider, Admin dapat melakukan tambah data, edit data, dan hapus data.    |
+| CRUD Menu | ![alt text](Foto_Laporan/antarmuka.png?raw=true) | Ini adalah menu CRUD Menu, Admin dapat melakukan tambah data, edit data, dan hapus data.   |
+| CRUD Promo    |   ![alt text](Foto_Laporan/promo.jpeg?raw=true)    | Ini adalah menu CRUD Promo, Admin dapat melakukan tambah data, edit data, dan hapus data.  |
+| CRUD Informasi      |  ![alt text](Foto_Laporan/informasi.jpeg?raw=true)  | Ini adalah menu CRUD Informasi, Admin dapat melakukan tambah data, edit data, dan hapus data.   |
+| CRUD Testimoni      |   ![alt text](Foto_Laporan/testimoni.jpeg?raw=true)  | Ini adalah menu CRUD Testimoni, Admin dapat melakukan tambah data, edit data, dan hapus data.   |
+| About Us | ![alt text](Foto_Laporan/about.jpeg?raw=true) | Ini adalah menu dari About Us, disini tidak menggunakan CRUD, tetapi hanya menggunakan update atau edit data, sehingga data-data yang sudah diinput sebelumnya diubah menjadi yang baru   |
+| Contact       |  ![alt text](Foto_Laporan/contact.jpeg?raw=true)    | Contact juga seperti itu, mengedit atau mengupdate data yang ada.   |
+| Home      |   ![alt text](Foto_Laporan/antarmuka.png?raw=true)   | Ini merupakan halaman luaran dari website yang nantinya sebagai tampilan yang bisa dilihat oleh customer. |
 
 
 **Halaman User**
