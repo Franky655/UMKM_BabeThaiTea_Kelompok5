@@ -1,4 +1,5 @@
 ![alt text](Foto_Laporan/cover.png?raw=true)
+![alt text](Foto_Laporan/kataPengantar.png?raw=true)
 
 ## BAB I Pendahuluan
 
