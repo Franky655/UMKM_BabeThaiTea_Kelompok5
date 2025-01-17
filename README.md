@@ -72,25 +72,23 @@ Sistem UMKM Babe Thai Tea memiliki 2 pengguna yaitu admin dan Customer. Admin bi
 |--|--|
 | ![alt text](Foto_Laporan/login.jpeg?raw=true) Dibagian ini user (admin) dapat melakukan login dengan tujuan untuk meakukan pensettingan data dari website yang ditampilkan dihalaman company profile.| ![alt text](Foto_Laporan/dashboard.jpeg?raw=true) Ini merupakan halaman utama jika user sudah bisa melakukan login.
 |  |  |
-| ![alt text](Foto_Laporan/slider.jpeg?raw=true) Dibagian ini user (admin) dapat melakukan login decompany profile halaman admin akan terdapat halaman kontak, data about dan data teameda.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Pada halaman mengelola data kegiatan, admin juga dapat menambahkan data kegiatan, begitu juga dengan pengelolaan data di tabel lainnya.
+| ![alt text](Foto_Laporan/slider.jpeg?raw=true) Ini adalah menu CRUD Slider, Admin dapat melakukan tambah data, edit data, dan hapus data.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Ini adalah menu CRUD Menu, Admin dapat melakukan tambah data, edit data, dan hapus data.
 |  |  |
-| ![alt text](Foto_Laporan/promo.jpeg?raw=true) Pada halaman mengelola data kegiatan juga terdapat aksi untuk mengedit data kegiatan.| ![alt text](Foto_Laporan/informasi.jpeg?raw=true) Pada halaman mengelola data kegiatan, selain menambahkan dan mengedit, admin juga dapat menghapus data kegiatan yang mana ketika button hapus di klik akan muncul pop up untuk memastikan admin benar-benar ingin menghapus atau tidak.
+| ![alt text](Foto_Laporan/promo.jpeg?raw=true) Ini adalah menu CRUD Promo, Admin dapat melakukan tambah data, edit data, dan hapus data.| ![alt text](Foto_Laporan/informasi.jpeg?raw=true)Ini adalah menu CRUD Informasi, Admin dapat melakukan tambah data, edit data, dan hapus data.
 |  |  |
-| ![alt text](Foto_Laporan/antarmuka.png?raw=true) halaman login admin diminta untuk mengisi username dan password.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Setelah login admin akan masuk ke tampilan Dashboard admin.
+| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Ini adalah menu CRUD Testimoni, Admin dapat melakukan tambah data, edit data, dan hapus data.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Ini adalah menu dari About Us, disini tidak menggunakan CRUD, tetapi hanya menggunakan update atau edit data, sehingga data-data yang sudah diinput sebelumnya diubah menjadi yang baru
 |  |  |
-| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Pada halaman admin akan halaman yang berbeda.| ![alt text](Foto_Laporan/TambahDataKegiatan.png?raw=true) Pada halaman mengelola data kegiatan, admin juga dapat menambahkan data kegiatan, begitu juga dengan pengelolaan data di tabel lainnya.
+| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Contact juga seperti itu, mengedit atau mengupdate data yang ada.| ![alt text](Foto_Laporan/TambahDataKegiatan.png?raw=true)Ini merupakan halaman luaran dari website yang nantinya sebagai tampilan yang bisa dilihat oleh customer.
 
 
 **Halaman User**
 |  |  |
 |--|--|
-| ![alt text](Foto_Laporan/dashboardUser.png) Pada halaman pengunjung terdapat beranda yang berisi tampilan scrolling yang berisi seluruh konten seperti tampilan home, kegiatan, artikel about ,team dan contact.|![alt text](Foto_Laporan/Kegiatan.png?raw=true) Pada halaman pengunjung terdapat halaman kegiatan yang berisi judul, gambar, tanggal dan deskripsi kegiatan.
+| ![alt text](Foto_Laporan/dashboardUser.png) Ini merupakan tampilan luaran yang ada pada website yang bisa dijelajahi oleh pengunjung.|![alt text](Foto_Laporan/Kegiatan.png?raw=true)Tampilan About Us menampilkan tentang UMKM ini berjalan.
 |  |  |
-| ![alt text](Foto_Laporan/detailKegiatan.png?raw=true) Pada halaman pengunjung terdapat halaman lanjutan Kegiatan, jika pengunjung telah mengklik satu kegiatan yang akan dilihat, maka pada halaman ini akan tampil deskripsi dari kegiatan tersebut.|![alt text](Foto_Laporan/artikel.png?raw=true) Pada halaman pengunjung terdapat halaman artikel yang berisi cover dan deskripsi singkat mengenai artikel.
+| ![alt text](Foto_Laporan/detailKegiatan.png?raw=true) Pada halaman pengunjung terdapat halaman lanjutan Kegiatan, jika pengunjung telah mengklik satu kegiatan yang akan dilihat, maka pada halaman ini akan tampil deskripsi dari kegiatan tersebut.|![alt text](Foto_Laporan/artikel.png?raw=true) Tampilan testimoni menampilkan customer yang memberikan review kepada produk UMKM.
 |  |  |
-| ![alt text](Foto_Laporan/Detailartikel.png?raw=true) Pada halaman pengunjung terdapat halaman lanjutan Artikel jika pengunjung telah mengklik satu judul yang akan dibaca, maka pada halaman ini akan tampil deskripsi dari artikel tersebut, pada halaman ini pengunjung dapat meninggalkan komentar.|![alt text](reFoto_Laporanvisi/tentang.png?raw=true) Pada halaman pengunjung terdapat halaman about yang berisi informasi website seputar pengelola.
-|  |  |
-| ![alt text](Foto_Laporan/kontak.png?raw=true) Pada halaman pengunjung terdapat halaman about yang berisi informasi website seputar Alamat dan Contact Person.|![alt text](Foto_Laporan/team.png?raw=true) Pada halaman pengunjung terdapat halaman team yang berisi team dari dinas pemberdayaan perempuan dan Perlindungan anak masyarakat kota pekanbaru.
+| ![alt text](Foto_Laporan/Detailartikel.png?raw=true) Tampilan Promo menampilkan semua promo yang tersedia dari UMKM nya.|![alt text](Foto_Laporanvisi/tentang.png?raw=true) Tampilan Contact untuk menunjukkan lokasi serta informasi media sosial dari UMKM nya
 
 
 **2.1.3 Antarmuka perangkat keras**
@@ -118,7 +116,7 @@ tidak ada
 **2.1.7 Operasi-operasi**
 | Operasi | Fungsi |
 | ------ | ------ |
-|   Login  | Digunakan untuk mengakses aplikasi    |
+|   ![alt text](Foto_Laporan/PerangkatKeras.png?raw=true)| Digunakan untuk mengakses aplikasi    |
 |    Tambah Data    |    Digunakan untuk memasukkan data-data    |
 | Kembali |  Digunakan untuk kembali ke halaman sebelumnya |
 | Hapus | Digunakan untuk menghapus data|
