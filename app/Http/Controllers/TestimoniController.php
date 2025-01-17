@@ -7,115 +7,61 @@ use Illuminate\Http\Request;
 
 class TestimoniController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $testimoni = Testimoni::all();
-
         return view('testimoni.index', compact('testimoni'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         return view('testimoni.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         $request->validate([
-            'title' => 'required', 'description' => 'required', 'image' => 'required|image',
+            'title'       => 'required',
+            'description' => 'required',
         ]);
 
-        $input = $request->all();
+        Testimoni::create([
+            'title'       => $request->title,
+            'description' => $request->description,
+        ]);
 
-        if ($image = $request->file('image')) {
-            $destinationPath = 'image/';
-            $imageName = $image->getClientOriginalName();
-            $image->move($destinationPath, $imageName);
-            $input['image'] = $imageName;
-        }
-
-        Testimoni::create($input);
-
-        return redirect('admin/testimoni')->with('message', 'Data berhasil ditambahkan');
+        return redirect('testimoni')->with('message', 'Testimoni berhasil disimpan!');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Testimoni $testimoni)
     {
         return view('testimoni.edit', compact('testimoni'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, Testimoni $testimoni)
     {
         $request->validate([
-            'title' => 'required', 'description' => 'required', 'image' => 'image',
+            'title'       => 'required',
+            'description' => 'required',
         ]);
 
-        $input = $request->all();
+        $testimoni->update([
+            'title'       => $request->title,
+            'description' => $request->description,
+        ]);
 
-        if ($image = $request->file('image')) {
-            $destinationPath = 'image/';
-            $imageName = $image->getClientOriginalName();
-            $image->move($destinationPath, $imageName);
-            $input['image'] = $imageName;
-        }else {
-            unset($input['image']);
-        }
-
-        $testimoni->update($input);
-
-        return redirect('admin/testimoni')->with('message', 'Data berhasil diedit');
+        return redirect('admin/testimoni')->with('message', 'Testimoni berhasil diperbarui!');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Testimoni $testimoni)
     {
         $testimoni->delete();
 
-        return redirect('admin/testimoni')->with('message', 'Data berhasil dihapus');
+        return redirect('admin/testimoni')->with('message', 'Testimoni berhasil dihapus!');
+    }
+
+    public function __construct()
+    {
+        $this->middleware('auth')->except(['store']);
     }
 }

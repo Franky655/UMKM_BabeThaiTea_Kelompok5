@@ -12,6 +12,7 @@ use App\Http\Controllers\SliderController;
 use App\Http\Controllers\TestimoniController;
 use Illuminate\Support\Facades\Route;
 
+// Public Routes
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/contact', [HomeController::class, 'contact']);
@@ -20,26 +21,28 @@ Route::get('/promo', [HomeController::class, 'promo']);
 Route::get('/menu', [HomeController::class, 'menu']);
 Route::get('/testimoni', [HomeController::class, 'testimoni']);
 
-Route::post('/testimoni', [TestimoniController::class, 'submit'])->name('testimoni.submit');
+// Testimoni Store Route (No Auth Required)
+Route::post('/testimoni', [TestimoniController::class, 'store'])->name('testimoni.store');
 
-// Auth
+// Authentication Routes
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'authenticated']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
-// Dashboard
+// Admin Dashboard Routes (Requires Auth)
 Route::prefix('/admin')->middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index']);
-
     Route::resource('sliders', SliderController::class);
     Route::resource('promo', PromoController::class);
     Route::resource('testimoni', TestimoniController::class);
     Route::resource('informasi', InformasiController::class);
     Route::resource('menu', MenuController::class);
 
+    // Contact Management
     Route::get('contact', [ContactController::class, 'index']);
     Route::put('contact/{id}', [ContactController::class, 'update']);
 
+    // About Management
     Route::get('about', [AboutController::class, 'index']);
     Route::put('about/{id}', [AboutController::class, 'update']);
 });

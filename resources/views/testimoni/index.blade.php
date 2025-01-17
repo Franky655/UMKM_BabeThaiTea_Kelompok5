@@ -5,7 +5,6 @@
 @section('content')
 
 <div class="container">
-    <a href="/admin/testimoni/create" class="btn btn-primary mb-1">Tambah Data</a>
 
     @if ($message = Session::get('message'))
         <div class="alert alert-success">
@@ -19,9 +18,8 @@
             <thead>
                 <tr>
                     <th>No</th>
-                    <th>Judul</th>
+                    <th>Nama</th>
                     <th>Deskripsi</th>
-                    <th>Gambar</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -34,9 +32,6 @@
                     <td>{{ $i++ }}</td>
                     <td>{{ $testimoni->title }}</td>
                     <td>{{ $testimoni->description }}</td>
-                    <td>
-                        <img src="/image/{{ $testimoni->image }}" alt="" class="img-fluid" width="90">
-                    </td>
                     <td>
                         <div class="btn-group" role="group">
                             <a href="{{ route('testimoni.edit', $testimoni->id) }}" class="btn btn-warning">Edit</a>

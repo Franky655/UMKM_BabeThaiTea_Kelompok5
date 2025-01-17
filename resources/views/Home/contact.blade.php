@@ -111,30 +111,29 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-12">
+                    <h2 class="text-center mb-4">Masukkan Riview Anda kepada UMKM Kami</h2>
                     <div class="card border-0 shadow">
                         <div class="card-body px-4">
-                            <div class="row mt-4">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your Name">
+                            <form action="{{ route('testimoni.store') }}" method="POST" enctype="multipart/form-data">
+                                @csrf
+                                <div class="row mt-4">
+                                    <div class="col-md-12">
+                                        <input type="text" name="title" class="form-control"
+                                            placeholder="Nama Anda" required>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your Email">
+                                <div class="row mt-4">
+                                    <div class="col-md-12">
+                                        <textarea name="description" id="" cols="30" rows="5" class="form-control"
+                                            placeholder="Deskripsi" required></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" placeholder="Subject">
+                                <div class="row mt-4">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-submit">Send Message</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col-md-12">
-                                    <textarea name="" id="" cols="30" rows="10" class="form-control"
-                                        placeholder="Your Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="row mt-4">
-                                <button type="submit" class="btn btn-submit">Send Message</button>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>

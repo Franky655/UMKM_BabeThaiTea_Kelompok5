@@ -86,10 +86,8 @@
                     <div class="col-md-6 mt-4" data-aos="fade-right">
                         <div class="card border-0 shadow shadow-sm">
                             <div class="card-body testimonial-item p-5">
-                                <img src="image/{{ $testimoni->image }}" alt=""
-                                    class="img-testimonial float-start rounded-circle me-3">
                                 <strong class="d-block">{{ $testimoni->title }}</strong>
-                                <small class="text-muted">Testimoni</small>
+                                <small class="text-muted">Customer</small>
                                 <p class="fst-italic mt-3 fs-5">
                                     <i class="fa fa-quote-left"></i>
                                     {{ $testimoni->description }}
