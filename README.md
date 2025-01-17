@@ -70,7 +70,7 @@ Sistem UMKM Babe Thai Tea memiliki 2 pengguna yaitu admin dan Customer. Admin bi
 **Halaman Admin**
 |  |  |
 |--|--|
-| ![alt text](Foto_Laporan/login.jpeg?raw=true) Dibagian ini user (admin) dapat melakukan login dengan tujuan untuk meakukan pensettingan data dari website yang ditampilkan dihalaman company profile.| ![alt text](Foto_Laporan/dasdashboard.jpeg?raw=true) Ini merupakan halaman utama jika user sudah bisa melakukan login.
+| ![alt text](Foto_Laporan/login.jpeg?raw=true) Dibagian ini user (admin) dapat melakukan login dengan tujuan untuk meakukan pensettingan data dari website yang ditampilkan dihalaman company profile.| ![alt text](Foto_Laporan/dashboard.jpeg?raw=true) Ini merupakan halaman utama jika user sudah bisa melakukan login.
 |  |  |
 | ![alt text](Foto_Laporan/antarmuka.png?raw=true) Dibagian ini user (admin) dapat melakukan login decompany profile halaman admin akan terdapat halaman kontak, data about dan data teameda.| ![alt text](Foto_Laporan/antarmuka.png?raw=true) Pada halaman mengelola data kegiatan, admin juga dapat menambahkan data kegiatan, begitu juga dengan pengelolaan data di tabel lainnya.
 |  |  |
