@@ -446,23 +446,23 @@ Struktur data logika pada sistem Company Profile Babe Thai Tea terdapat struktur
 
 ## Pembagian Tugas Laporan
 BAB 1
-  1.1 Tengku Muhamad Raafi
-  1.2 Tengku Muhamad Raafi
-  1.3 Zikrul Cahyadi
-  1.4 Zikrul Cahyadi
-  1.5 Zikrul Cahyadi
+  1.1 -> Tengku Muhamad Raafi
+  1.2 -> Tengku Muhamad Raafi
+  1.3 -> Zikrul Cahyadi
+  1.4 -> Zikrul Cahyadi
+  1.5 -> Zikrul Cahyadi
 BAB 2
-  2.1 Zikrul Cahyadi, Franky Young, Tengku Muhamad Raafi
-  2.2 Zikrul Cahyadi, Tengku Muhamad Raafi
-  2.3 Tengku Muhamad Raafi
-  2.4 Tengku Muhamad Raafi
-  2.5 Tengku Muhamad Raafi
-  2.6 Zikrul Cahyadi, Franky Young, Tengku Muhamad Raafi
-  2.7 Zikrul Cahyadi, Franky Young, Tengku Muhamad Raafi
+  2.1 -> Zikrul Cahyadi, Franky Young, Tengku Muhamad Raafi
+  2.2 -> Zikrul Cahyadi, Tengku Muhamad Raafi
+  2.3 -> Tengku Muhamad Raafi
+  2.4 -> Tengku Muhamad Raafi
+  2.5 -> Tengku Muhamad Raafi
+  2.6 -> Zikrul Cahyadi, Franky Young, Tengku Muhamad Raafi
+  2.7 -> Zikrul Cahyadi, Franky Young, Tengku Muhamad Raafi
 BAB 3
-  3.1 Zikrul Cahyadi
-  3.2 Zikrul Cahyadi
-  3.3 Franky Young, Zikrul Cahyadi
+  3.1 -> Zikrul Cahyadi
+  3.2 -> Zikrul Cahyadi
+  3.3 -> Franky Young, Zikrul Cahyadi
 
 ## PEMBAGIAN TUGAS PROJECT
 1.	Franky Young
