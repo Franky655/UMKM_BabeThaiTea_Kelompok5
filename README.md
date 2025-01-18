@@ -132,7 +132,6 @@ tidak ada
 tidak ada
 
 ## 2.2 Spesifikasi kebutuhan fungsional
-![alt text](Foto_Laporan/2.2.png?raw=true)
 **2.2.1 Admin Login**
 
 Use Case: Login
@@ -157,7 +156,7 @@ Use Case: Input Data Menu
 
 Diagram:
 
-![alt text](Foto_Laporan/DiagramMenu.png?raw=true)
+![alt text](Foto_Laporan/diagramMenu.png?raw=true)
 
 Deskripsi Singkat
 Sistem dapat menampilkan halaman input menu dan Admin menginputkan menu
@@ -227,7 +226,7 @@ Xref: Bagian 3.2.3, Input Data Informasi
 
 Use Case: Input Data Testimoni
 
-Diagram:![alt text](Foto_Laporan/diagramTestimoni.jpeg?raw=true)
+Diagram:![alt text](Foto_Laporan/diagramTestimoni.png?raw=true)
 
 
 Deskripsi Singkat
