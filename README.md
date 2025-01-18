@@ -79,13 +79,13 @@ Sistem UMKM Babe Thai Tea memiliki 2 pengguna yaitu admin dan Customer. Admin bi
 | ![alt text](Foto_Laporan/testimoni.jpeg?raw=true)  | Ini adalah menu CRUD Testimoni, Admin dapat melakukan tambah data, edit data, dan hapus data.   |
 | ![alt text](Foto_Laporan/about.jpeg?raw=true) | Ini adalah menu dari About Us, disini tidak menggunakan CRUD, tetapi hanya menggunakan update atau edit data, sehingga data-data yang sudah diinput sebelumnya diubah menjadi yang baru   |
 | ![alt text](Foto_Laporan/contact.jpeg?raw=true)    | Contact juga seperti itu, mengedit atau mengupdate data yang ada.   |
-| ![alt text](Foto_Laporan/antarmuka.png?raw=true)   | Ini merupakan halaman luaran dari website yang nantinya sebagai tampilan yang bisa dilihat oleh customer. |
+| ![alt text](Foto_Laporan/home.jpeg?raw=true)   | Ini merupakan halaman luaran dari website yang nantinya sebagai tampilan yang bisa dilihat oleh customer. |
 
 
 **Halaman User**
 | Gambar | Penjelasan |
 | ------ | ------ |
-| ![alt text](Foto_Laporan/antarmuka.png?raw=true)|  Ini merupakan tampilan luaran yang ada pada website yang bisa dijelajahi oleh pengunjung.   |
+| ![alt text](Foto_Laporan/home.jpeg?raw=true)|  Ini merupakan tampilan luaran yang ada pada website yang bisa dijelajahi oleh pengunjung.   |
 | ![alt text](Foto_Laporan/aboutCust.jpeg?raw=true)   | Tampilan About Us menampilkan tentang UMKM ini berjalan.   |
 | ![alt text](Foto_Laporan/informasiCust.jpeg?raw=true) |  Tampilan Informasi menampilkan informasi terbaru dari UMKM |
 | ![alt text](Foto_Laporan/testimoniCust.jpeg?raw=true) | Tampilan testimoni menampilkan customer yang memberikan review kepada produk UMKM  |
