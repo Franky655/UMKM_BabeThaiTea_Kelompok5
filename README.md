@@ -120,7 +120,7 @@ tidak ada
 | Operasi | Fungsi |
 | ------ | ------ |
 | Login | Digunakan untuk mengakses aplikasi    |
-|    Tambah Data    |    Digunakan untuk memasukkan data-data    |
+| Tambah Data    |    Digunakan untuk memasukkan data-data    |
 | Kembali |  Digunakan untuk kembali ke halaman sebelumnya |
 | Hapus | Digunakan untuk menghapus data|
 | Edit       |   Digunakan untuk mengubah data     |
