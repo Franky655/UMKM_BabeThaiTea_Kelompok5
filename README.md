@@ -119,7 +119,7 @@ tidak ada
 **2.1.7 Operasi-operasi**
 | Operasi | Fungsi |
 | ------ | ------ |
-|   ![alt text](Foto_Laporan/PerangkatKeras.png?raw=true)| Digunakan untuk mengakses aplikasi    |
+| Login | Digunakan untuk mengakses aplikasi    |
 |    Tambah Data    |    Digunakan untuk memasukkan data-data    |
 | Kembali |  Digunakan untuk kembali ke halaman sebelumnya |
 | Hapus | Digunakan untuk menghapus data|
@@ -138,7 +138,7 @@ tidak ada
 Use Case: Login
 
 Diagram:
-![alt text](Foto_Laporan/adminLogin.png?raw=true)
+![alt text](Foto_Laporan/diagramAdmin.png?raw=true)
 
 Deskripsi Singkat 
 Admin melakukan login terlebih dahulu sebelum masuk ke tampilan home admin, apabila gagal login akan muncul pesan alert error login. 
@@ -151,93 +151,95 @@ Deskripsi Langkah-Langkah
 
 Xref: Bagian 3.2.1, Login Admin
 
-**2.2.2 Admin Input Artikel Parenting**
+**2.2.2 Admin Input Menu**
 
-Use Case: Input Artikel Parenting
-
-Diagram:
-
-![alt text](ImagFoto_Laporane/2.2.2.png?raw=true)
-
-Deskripsi Singkat
-Admin menginputkan kategori parenting lalu menambahkan judul dan deskripsi sesuain kategori.
-
-Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan input artikel.
-2. Admin Dapat melihat,menambahkan, dan mengupload artikel.
-3. Sistem akan menyimpan ke database.
-4. Jika sudah disimpan sistem akan menampilkan peringatan.
-
-Xref: Bagian 3.2.2, Input data Artikel Parenting
-
-**2.2.3 Admin Input Dokumentasi kegiatan**
-
-Use Case: Input Dokumentasi kegiatan
+Use Case: Input Data Menu
 
 Diagram:
-![alt text](Foto_Laporan/2.2.3.png?raw=true)
+
+![alt text](Foto_Laporan/DiagramMenu.png?raw=true)
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman input dokumentasi kegiatan dan Admin menginputkan dokumentasi kegiatan.
+Sistem dapat menampilkan halaman input menu dan Admin menginputkan menu
 
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan publikasi kegiatan.
-2. Admin dapat melihat,menambahkan, dan mengupload kegiatan.
+1. Sistem akan menampilkan tampilan data menu.
+2. Admin dapat melihat,menambahkan, dan mengupload nama menu , harga dan foto menu.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. sudah disimpan sistem akan menampilkan notifikasi data berhasil ditambahkan.
 
-Xref: Bagian 3.2.3, Input data Dokumentasi kegiatan
+Xref: Bagian 3.2.2, Input Data Menu
 
-**2.2.4 Admin Input data tentang B3AM**
+**2.2.3 Admin Input Slider**
 
-Use Case: Input data tentang B3AM
+Use Case: Input Data Slider
 
-Diagram:![alt text](Foto_Laporan/revisi2.jpg?raw=true)
-
+Diagram:
+![alt text](Foto_Laporan/diagramSlider.jpeg?raw=true)
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman Input data tentang B3AM dan Admin mengInput data tentang B3AM.
+Sistem dapat menampilkan halaman slider dan Admin menginputkan slider.
+
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan data tentang B3AM.
-2. Admin dapat melihat,menambahkan, dan mengupload data tentang B3AM.
+1. Sistem akan menampilkan tampilan data slider.
+2. Admin dapat melihat,menambahkan, dan mengupload gambar slider.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. Sudah disimpan sistem akan menampilkan notifikasi data berhasil ditambahkan.
 
-Xref: Bagian 3.2.3,data tentang B3AM
+Xref: Bagian 3.2.3, Input Data Slider
 
-**2.2.5 Admin Input data contact B3AM**
+**2.2.4 Admin Input Promo**
 
-Use Case: Input data contact B3AM
+Use Case: Input data Promo
 
-Diagram:![alt text](Foto_Laporan/revisi4.jpg?raw=true)
-
-
-Deskripsi Singkat
-Sistem dapat menampilkan halaman Input data contact B3AM dan Admin mengInput data contact B3AM.
-Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan data contact B3AM.
-2. Admin dapat melihat,menambahkan, dan mengupload data contact B3AM.
-3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
-
-Xref: Bagian 3.2.3,data contact B3AM
-
-**2.2.6 Admin Input data team B3AM**
-
-Use Case: Input data team B3AM
-
-Diagram:![alt text](Foto_Laporan/revisi3.jpg?raw=true)
+Diagram:![alt text](Foto_Laporan/diagramPromo.jpeg?raw=true)
 
 
 Deskripsi Singkat
-Sistem dapat menampilkan halaman Input data team B3AM dan Admin mengInput data team B3AM.
+Sistem dapat menampilkan halaman promo dan Admin menginputkan promo.
 Deskripsi Langkah- langkah:
-1. Sistem akan menampilkan tampilan data team B3AM.
-2. Admin dapat melihat,menambahkan, dan mengupload data team B3AM.
+1. Sistem akan menampilkan tampilan data promo.
+2. Admin dapat melihat,menambahkan, dan mengupload foto promo dan deskripsi.
 3. Sistem akan menyimpan ke database.
-4. sudah disimpan sistem akan menampilkan peringatan.
+4. Sudah disimpan sistem akan menampilkan notifikasi data berhasil ditambahkan.
 
-Xref: Bagian 3.2.3,data team B3AM
+Xref: Bagian 3.2.3, Input Data Promo
+
+**2.2.5 Admin Input Informasi**
+
+Use Case: Input data Informasi
+
+Diagram:![alt text](Foto_Laporan/diagramInformasi.jpeg?raw=true)
+
+
+Deskripsi Singkat
+Sistem dapat menampilkan halaman informasi dan Admin menginputkan informasi.
+Deskripsi Langkah- langkah:
+1. Sistem akan menampilkan tampilan data informasi.
+2. Admin dapat melihat,menambahkan, dan mengupload  judul, deskripsi dan gambar.
+3. Sistem akan menyimpan ke database.
+4. Sudah disimpan sistem akan menampilkan notifikasi data berhasil ditambahkan.
+
+
+Xref: Bagian 3.2.3, Input Data Informasi
+
+**2.2.6 Admin Input Testimini**
+
+Use Case: Input Data Testimoni
+
+Diagram:![alt text](Foto_Laporan/diagramTestimoni.jpeg?raw=true)
+
+
+Deskripsi Singkat
+Sistem dapat menampilkan halaman informasi dan Admin menginputkan testimoni.
+Deskripsi Langkah- langkah:
+1. Sistem akan menampilkan tampilan data testimoni.
+2. Admin dapat melihat,menambahkan, dan mengupload  judul, deskripsi dan gambar.
+3. Sistem akan menyimpan ke database.
+4. Sudah disimpan sistem akan menampilkan notifikasi data berhasil ditambahkan.
+
+
+Xref: Bagian 3.2.3, Input data Testimoni
 
 
 **2.2.7 pengunjung Mengunjungi website**
@@ -245,17 +247,17 @@ Xref: Bagian 3.2.3,data team B3AM
 Use Case: Mengunjungi website
 
 Diagram:
-![alt text](Foto_Laporan/pengunjungMengunjungiWeb.png?raw=true)
+![alt text](Foto_Laporan/diagramPengunjung.png?raw=true)
 
 Deskripsi Singkat 
-pengunjung mengunjungi website dan melihat informasi yang ada pada website seperti informasi seputar website serta informasi parenting yang telah tersedia, pengunjung juga dapat memberikan komentar pada konten parenting yang tersedia 
+Sistem dapat menampilkan halaman company profile yaitu (Home, About Us, Informasi, Testimoni, Menu, Promo, Contact) dan pengunjung dapat melihat semua informasi yang tersedia di website.
 
 Deskripsi Langkah-Langkah
-1. Sistem akan menampilkan halaman-halaman konten.
-2. pengunjung melihat informasi yang ada pada website seperti informasi seputar website atau informasi parenting serta juga dapat memberikan komentar pada konten parenting yang tersedia 
-3. pengunjung dapat mengklik tombol kembali ke halaman sebelumnya jika ingin keluar pada halaman konten yang telah dilihat.
+1. Sistem akan menampilkan tampilan halaman utama
+2. Pengunjung dapat melihat tampilan home, about us, informasi, testimoni, menu, promo, contact dan juga melakukan testimoni
 
-Xref: Bagian 3.2.7, Login pengunjung
+
+Xref: Bagian 3.2.7, Mengunjugi Website
 
 ## 2.3 Spesifikasi kebutuhan non-fungsional
 - tabel kebutuhan non-fungsional
@@ -266,7 +268,7 @@ Xref: Bagian 3.2.7, Login pengunjung
 |     2   |   Perangkat Lunak dapat dipakai di semua platofrm OS ( Admin, pengunjung )     |
 
 ## 2.4 Karakteristik Pengguna
-Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem dan dihubungkan dengan hak akses atau level autentikasi.
+Pengguna berinteraksi langsung dengan website, mulai dari melihat tampilan company profile, dan kemudian untuk admin bisa melakukan login untuk mensetting semua data-data UMKM nya (CRUD) 
 
 ## 2.5 Batasan-batasan
 tidak ada
@@ -281,15 +283,15 @@ tidak ada
 
 
 ## 3.1 Persyaratan Antarmuka Eksternal
-Salah satu cara mengakses website ini yaitu dengan registrasi, setelah registrasi akan login dengan memasukkan username dan password, kemudian sistem akan validasi login. setelah login berhasil pengunjung dapat melihat konten yang ada di website tersebut.
+Untuk admin yang akan mengakses website ini diperlukan login terlebih dahulu, kemudian akan memasukkan username dan password, lalu sistem akan validasi login. Setelah login berhasil Admin dapat melihat tampilan admin yang ada di website tersebut. Untuk pengunjung hanya perlu membuka halaman website, kemudian pengunjung dapat melihat informasi dan data product yang ada di website tersebut.
 
 ## 3.2 Functional Requirement
 **3.2.1 Login Admin**
 
 | Nama Fungsi         | Login                                  |
 | ------------------- | -------------------------------------- |
-| Xref                | Bagian 2.2.1 Login               |
-| Trigger             | Admin Membuka Website Sistem Informasi Parenting |
+| Xref                | Bagian 2.2.1 Admin Login             |
+| Trigger             | Admin Membuka Website Babe Thai Tea|
 | Precondition        | Halaman login                          |
 | Basic Path          | 1. Admin melakukan login dengan username dan password.
 |        |         2. Sistem melakukan validasi login. |
