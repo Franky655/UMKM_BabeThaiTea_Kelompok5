@@ -19,7 +19,11 @@
 
     <title>UMKM BABE THAI TEA</title>
 
+<<<<<<< HEAD
     <!-- navbar -->
+=======
+    <!-- NAVBAR -->
+>>>>>>> origin/TengkuMR
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#"><span class="primary">BABE</span>THAI TEA</a>
@@ -58,9 +62,15 @@
             </div>
         </div>
     </nav>
+<<<<<<< HEAD
     <!-- end navbar -->
 
     <!-- breadcumbs  -->
+=======
+    <!-- END NAVBAR -->
+
+    <!-- HEADER -->
+>>>>>>> origin/TengkuMR
     <div class="breadcumbs py-2">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center text-white">
@@ -72,10 +82,17 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end breadcumbs -->
 
     <!-- teams -->
     <div class="teams bg-light py-5">
+=======
+    <!-- END HEADER -->
+
+    <!-- TESTIMONI -->
+    <div class="testimoni bg-light py-5">
+>>>>>>> origin/TengkuMR
         <div class="container">
             <div class="title-container">
                 <h2 class="text-center fw-bold">TESTIMONI</h2>
@@ -86,10 +103,15 @@
                     <div class="col-md-6 mt-4" data-aos="fade-right">
                         <div class="card border-0 shadow shadow-sm">
                             <div class="card-body testimonial-item p-5">
+<<<<<<< HEAD
                                 <img src="image/{{ $testimoni->image }}" alt=""
                                     class="img-testimonial float-start rounded-circle me-3">
                                 <strong class="d-block">{{ $testimoni->title }}</strong>
                                 <small class="text-muted">Testimoni</small>
+=======
+                                <strong class="d-block">{{ $testimoni->title }}</strong>
+                                <small class="text-muted">Customer</small>
+>>>>>>> origin/TengkuMR
                                 <p class="fst-italic mt-3 fs-5">
                                     <i class="fa fa-quote-left"></i>
                                     {{ $testimoni->description }}
@@ -102,6 +124,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end teams -->
 
     <!-- footer -->
@@ -109,6 +132,15 @@
         <div class="footer-top bg-dark text-white p-5">
             <div class="container-fluid">
                 <div class="row align-items-center"> <!-- Tambah align-items-center -->
+=======
+    <!-- END TESTIMONI -->
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+        <div class="footer-top bg-dark text-white p-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+>>>>>>> origin/TengkuMR
                     <div class="col-md-1"></div>
                     <div class="col-md-3">
                         <h4 class="fw-bold">{{ $contact->name }}</h4>
@@ -165,10 +197,16 @@
                             </li>
                         </ul>
                     </div>
+<<<<<<< HEAD
                     <div class="col-md-3 text-end"> <!-- Kurangi lebar kolom -->
                         <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
                             class="img-fluid" style="max-width: 200px; border-radius: 10px;">
                         <!-- Sesuaikan ukuran -->
+=======
+                    <div class="col-md-3 text-end">
+                        <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
+                            class="img-fluid" style="max-width: 200px; border-radius: 10px;">
+>>>>>>> origin/TengkuMR
                     </div>
                 </div>
             </div>
@@ -208,6 +246,7 @@
             </div>
         </div>
     </footer>
+<<<<<<< HEAD
     <!-- end footer  -->
 
     <!-- to top -->
@@ -215,6 +254,15 @@
         <i class="fa fa-chevron-up"></i>
     </a>
     <!-- end to top -->
+=======
+    <!-- END FOOTER  -->
+
+    <!-- TO TOP-->
+    <a href="#" class="btn-to-top p-3">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- END TO TOP -->
+>>>>>>> origin/TengkuMR
 
     <script src="assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

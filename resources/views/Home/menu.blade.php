@@ -19,7 +19,11 @@
 
     <title>UMKM BABE THAI TEA</title>
 
+<<<<<<< HEAD
     <!-- navbar -->
+=======
+    <!-- NAVBAR -->
+>>>>>>> origin/TengkuMR
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#"><span class="primary">BABE</span>THAI TEA</a>
@@ -58,12 +62,21 @@
             </div>
         </div>
     </nav>
+<<<<<<< HEAD
     <!-- end navbar -->
 
     <!-- breadcumbs  -->
     <div class="breadcumbs py-2">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center text-black">
+=======
+    <!-- END NAVBAR -->
+
+    <!-- HEADER -->
+    <div class="breadcumbs py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center text-white">
+>>>>>>> origin/TengkuMR
                 <h2>Menu</h2>
                 <ol class="d-flex list-unstyled">
                     <li>Home</li>
@@ -73,16 +86,27 @@
         </div>
     </div>
 
+<<<<<<< HEAD
     <!-- end breadcumbs -->
 
     <!-- menu -->
     <div class="teams bg-light mt-5 py-5">
+=======
+    <!-- END HEADER -->
+
+    <!-- MENU -->
+    <div class="menu bg-light py-5">
+>>>>>>> origin/TengkuMR
         <div class="container">
             <div class="title-container">
                 <h2 class="text-center fw-bold">OUR MENU</h2>
             </div>
+<<<<<<< HEAD
             <p class="text-center">Disini Terdapat Bebebrapa Menu Yang Disediakan Dengan Banyak Varian Rasa Thai Tea.
             </p>
+=======
+            <p class="text-center mt-4">Kemi mempunyai beberapa menu dengan varian yang sangat menarik.</p>
+>>>>>>> origin/TengkuMR
             <div class="row">
                 @foreach ($menu as $menu)
                     <div class="col-md-3" data-aos="fade-up">
@@ -98,6 +122,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end menu -->
 
     <!-- footer -->
@@ -105,6 +130,15 @@
         <div class="footer-top bg-dark text-white p-5">
             <div class="container-fluid">
                 <div class="row align-items-center"> <!-- Tambah align-items-center -->
+=======
+    <!-- END MENU -->
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+        <div class="footer-top bg-dark text-white p-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+>>>>>>> origin/TengkuMR
                     <div class="col-md-1"></div>
                     <div class="col-md-3">
                         <h4 class="fw-bold">{{ $contact->name }}</h4>
@@ -161,10 +195,16 @@
                             </li>
                         </ul>
                     </div>
+<<<<<<< HEAD
                     <div class="col-md-3 text-end"> <!-- Kurangi lebar kolom -->
                         <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
                             class="img-fluid" style="max-width: 200px; border-radius: 10px;">
                         <!-- Sesuaikan ukuran -->
+=======
+                    <div class="col-md-3 text-end">
+                        <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
+                            class="img-fluid" style="max-width: 200px; border-radius: 10px;">
+>>>>>>> origin/TengkuMR
                     </div>
                 </div>
             </div>
@@ -204,6 +244,7 @@
             </div>
         </div>
     </footer>
+<<<<<<< HEAD
     <!-- end footer  -->
 
     <!-- to top -->
@@ -211,6 +252,15 @@
         <i class="fa fa-chevron-up"></i>
     </a>
     <!-- end to top -->
+=======
+    <!-- END FOOTER -->
+
+    <!-- TO TOP-->
+    <a href="#" class="btn-to-top p-3">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- END TO TOP -->
+>>>>>>> origin/TengkuMR
 
     <script src="assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

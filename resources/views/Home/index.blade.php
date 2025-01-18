@@ -21,7 +21,11 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <!-- navbar -->
+=======
+    <!-- NAVBAR -->
+>>>>>>> origin/TengkuMR
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#"><span class="primary">BABE</span>THAI TEA</a>
@@ -60,9 +64,15 @@
             </div>
         </div>
     </nav>
+<<<<<<< HEAD
     <!-- end navbar -->
 
     <!-- carousel -->
+=======
+    <!-- END NAVBAR -->
+
+    <!-- SLIDER -->
+>>>>>>> origin/TengkuMR
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -93,9 +103,15 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+<<<<<<< HEAD
     <!-- end carousel -->
 
     <!-- about us -->
+=======
+    <!-- END SLIDER -->
+
+    <!-- ABOUT US -->
+>>>>>>> origin/TengkuMR
     <div class="about-us mt-5">
         <div class="container">
             <div class="title-container text-center ">
@@ -139,9 +155,15 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end about us -->
 
     <!-- menu -->
+=======
+    <!-- END ABOUT US -->
+
+    <!-- MENU -->
+>>>>>>> origin/TengkuMR
     <div class="menu mt-5 bg-light py-5">
         <div class="container">
             <div class="title-container text-center">
@@ -171,6 +193,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end menu -->
 
 
@@ -195,6 +218,31 @@
     <!-- end promo -->
 
     <!-- footer -->
+=======
+    <!-- END MENU-->
+
+    <!-- PROMO -->
+    <div class="promo mt-5">
+        <div class="container">
+            <div class="title-container">
+                <h2 class="text-center fw-bold">PROMO</h2>
+            </div>
+            <p class="text-center mt-4">
+                Dan punya promo menarik lainnya.
+            </p>
+            <div class="row mt-4">
+                @foreach ($promo as $promo)
+                    <div class="col-md-6 pt-5 text-center" data-aos="zoom-in">
+                        <img src="image/{{ $promo->image }}" class="img-fluid brand-image" alt="" />
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+    <!-- END PROMO -->
+
+    <!-- FOOTER -->
+>>>>>>> origin/TengkuMR
     <footer class="mt-5">
         <div class="footer-top bg-dark text-white p-5">
             <div class="container-fluid">
@@ -297,6 +345,7 @@
             </div>
         </div>
     </footer>
+<<<<<<< HEAD
     <!-- end footer  -->
 
     <!-- to top -->
@@ -304,6 +353,15 @@
         <i class="fa fa-chevron-up"></i>
     </a>
     <!-- end to top -->
+=======
+    <!-- END FOOTER -->
+
+    <!-- TO TOP-->
+    <a href="#" class="btn-to-top p-3">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- END TO TOP -->
+>>>>>>> origin/TengkuMR
 
     <script src="assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

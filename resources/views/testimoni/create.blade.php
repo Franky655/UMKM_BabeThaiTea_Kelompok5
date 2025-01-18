@@ -25,6 +25,7 @@
                 <small style="color:red">{{$message}}</small>
                 @enderror
                 <div class="form-group">
+<<<<<<< HEAD
                     <label for="">Gambar</label>
                     <input type="file" class="form-control" name="image">
                 </div>
@@ -32,6 +33,8 @@
                 <small style="color:red">{{$message}}</small>
                 @enderror
                 <div class="form-group">
+=======
+>>>>>>> origin/TengkuMR
                     <button type="submit" class="btn btn-primary btn-block">Submit</button>
                 </div>
             </form>

@@ -19,7 +19,11 @@
 
     <title>UMKM BABE THAI TEA</title>
 
+<<<<<<< HEAD
     <!-- navbar -->
+=======
+    <!-- NAVBAR -->
+>>>>>>> origin/TengkuMR
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#"><span class="primary">BABE</span>THAI TEA</a>
@@ -58,9 +62,15 @@
             </div>
         </div>
     </nav>
+<<<<<<< HEAD
     <!-- end navbar -->
 
     <!-- breadcumbs  -->
+=======
+    <!-- END NAVBAR -->
+
+    <!-- HEADER  -->
+>>>>>>> origin/TengkuMR
     <div class="breadcumbs py-2">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center text-white">
@@ -72,9 +82,15 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end breadcumbs -->
 
     <!-- contact -->
+=======
+    <!-- END HEADER -->
+
+    <!-- CONTACT -->
+>>>>>>> origin/TengkuMR
     <div class="contact mb-5">
         <div class="maps">
             <iframe src="https://www.google.com/maps/embed?pb={{ $contact->maps_embed }}" width="100%" height="450"
@@ -111,6 +127,7 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-12">
+<<<<<<< HEAD
                     <div class="card border-0 shadow">
                         <div class="card-body px-4">
                             <div class="row mt-4">
@@ -135,12 +152,38 @@
                             <div class="row mt-4">
                                 <button type="submit" class="btn btn-submit">Send Message</button>
                             </div>
+=======
+                    <h2 class="text-center mb-4">Masukkan Riview Anda kepada UMKM Kami</h2>
+                    <div class="card border-0 shadow">
+                        <div class="card-body px-4">
+                            <form action="{{ route('testimoni.store') }}" method="POST" enctype="multipart/form-data">
+                                @csrf
+                                <div class="row mt-4">
+                                    <div class="col-md-12">
+                                        <input type="text" name="title" class="form-control"
+                                            placeholder="Nama Anda" required>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-md-12">
+                                        <textarea name="description" id="" cols="30" rows="5" class="form-control"
+                                            placeholder="Deskripsi" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+>>>>>>> origin/TengkuMR
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end contact -->
 
 <!-- footer -->
@@ -241,10 +284,79 @@
                         <a href="" class="mx-2">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+=======
+    <!-- END CONTACT-->
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+        <div class="footer-top bg-dark text-white p-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3">
+                        <h4 class="fw-bold">{{ $contact->name }}</h4>
+                        <p>
+                            {{ $contact->description }}
+                        </p>
+                        <strong>Phone</strong>: <span>{{ $contact->telepon }}</span>
+                        <br />
+                        <strong>Email</strong>: <span>{{ $contact->email }}</span>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="fw-bold">Useful Links I</h4>
+                        <ul class="list-group list-unstyled">
+                            <li class="list-item">
+                                <a href="" class="text-decoration-none text-white">
+                                    <i class="fa fa-chevron-right primary"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="text-decoration-none text-white">
+                                    <i class="fa fa-chevron-right primary"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="text-decoration-none text-white">
+                                    <i class="fa fa-chevron-right primary"></i>
+                                    Informasi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="fw-bold">Useful Links II</h4>
+                        <ul class="list-group list-unstyled">
+                            <li class="list-item">
+                                <a href="" class="text-decoration-none text-white">
+                                    <i class="fa fa-chevron-right primary"></i>
+                                    Menu
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="text-decoration-none text-white">
+                                    <i class="fa fa-chevron-right primary"></i>
+                                    Promo
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="text-decoration-none text-white">
+                                    <i class="fa fa-chevron-right primary"></i>
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-end">
+                        <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
+                            class="img-fluid" style="max-width: 200px; border-radius: 10px;">
+>>>>>>> origin/TengkuMR
                     </div>
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
     </div>
 </footer>
 <!-- end footer  -->
@@ -254,6 +366,50 @@
         <i class="fa fa-chevron-up"></i>
     </a>
     <!-- end to top -->
+=======
+        <div class="footer-down bg-darker text-white px-5 py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="copyright">
+                            &copy; Copyright <strong>BABE THAI TEA</strong>. All Right Reserved
+                        </div>
+                        <div class="credits">
+                            By Kelompok 5
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="social-links float-end">
+                            <a href="" class="mx-2">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                            <a href="" class="mx-2">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                            <a href="" class="mx-2">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                            <a href="" class="mx-2">
+                                <i class="fab fa-youtube fa-2x"></i>
+                            </a>
+                            <a href="" class="mx-2">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- TO TOP-->
+    <a href="#" class="btn-to-top p-3">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- END TO TOP -->
+>>>>>>> origin/TengkuMR
 
     <script src="assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -34,6 +34,7 @@ class HomeController extends Controller
 
     public function about()
     {
+<<<<<<< HEAD
         $sliders = Slider::all();
         $about = About::first();
         $promo = Promo::all();
@@ -47,6 +48,13 @@ class HomeController extends Controller
             'menu',
             'promo',
             'informasi',
+=======
+        $about = About::first();
+        $contact = Contact::first();
+
+        return view('home.about', compact(
+            'about',
+>>>>>>> origin/TengkuMR
             'contact',
         ));
     }

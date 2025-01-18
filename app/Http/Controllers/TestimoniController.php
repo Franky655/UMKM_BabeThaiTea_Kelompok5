@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class TestimoniController extends Controller
 {
+<<<<<<< HEAD
     /**
      * Display a listing of the resource.
      *
@@ -24,11 +25,20 @@ class TestimoniController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+=======
+    public function index()
+    {
+        $testimoni = Testimoni::all();
+        return view('testimoni.index', compact('testimoni'));
+    }
+
+>>>>>>> origin/TengkuMR
     public function create()
     {
         return view('testimoni.create');
     }
 
+<<<<<<< HEAD
     /**
      * Store a newly created resource in storage.
      *
@@ -72,11 +82,29 @@ class TestimoniController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+=======
+    public function store(Request $request)
+    {
+        $request->validate([
+            'title'       => 'required',
+            'description' => 'required',
+        ]);
+
+        Testimoni::create([
+            'title'       => $request->title,
+            'description' => $request->description,
+        ]);
+
+        return redirect('testimoni')->with('message', 'Testimoni berhasil disimpan!');
+    }
+
+>>>>>>> origin/TengkuMR
     public function edit(Testimoni $testimoni)
     {
         return view('testimoni.edit', compact('testimoni'));
     }
 
+<<<<<<< HEAD
     /**
      * Update the specified resource in storage.
      *
@@ -112,10 +140,36 @@ class TestimoniController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+=======
+    public function update(Request $request, Testimoni $testimoni)
+    {
+        $request->validate([
+            'title'       => 'required',
+            'description' => 'required',
+        ]);
+
+        $testimoni->update([
+            'title'       => $request->title,
+            'description' => $request->description,
+        ]);
+
+        return redirect('admin/testimoni')->with('message', 'Testimoni berhasil diperbarui!');
+    }
+
+>>>>>>> origin/TengkuMR
     public function destroy(Testimoni $testimoni)
     {
         $testimoni->delete();
 
+<<<<<<< HEAD
         return redirect('admin/testimoni')->with('message', 'Data berhasil dihapus');
+=======
+        return redirect('admin/testimoni')->with('message', 'Testimoni berhasil dihapus!');
+    }
+
+    public function __construct()
+    {
+        $this->middleware('auth')->except(['store']);
+>>>>>>> origin/TengkuMR
     }
 }

@@ -10,6 +10,10 @@ class Testimoni extends Model
     use HasFactory;
 
     protected $fillable = [
+<<<<<<< HEAD
         'title', 'description', 'image'
+=======
+        'title', 'description'
+>>>>>>> origin/TengkuMR
     ];
 }

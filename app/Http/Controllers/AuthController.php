@@ -3,29 +3,38 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-    public function login (Request $request)
+    public function login()
+    {
+        return view('auth.login');
+    }
+
+    public function authenticated(Request $request)
     {
         $request->validate([
-            'email' => 'required email',
-            'password' => 'required',
+            'email' => 'required|email',
+            'password' => 'required'
         ]);
 
-        $user = User::where('email', $request->email)->first();
-        if ($user && Hash::check($request->password, $user->password)) { // Generate a token for the user
-            $token = $user->createToken('BeritaAppToken')->plainTextToken;
+        $credentials = $request->only('email', 'password');
 
-            return response()->json([
-                'message' => 'Login successful',
-                'token' => $token
-            ]);
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+            return redirect('admin/dashboard');
         }
 
-        return response()->json(['message' => 'Invalid credentials'], 401);
+        return back()->withErrors([
+            'loginError' => 'Email atau password salah'
+        ]);
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return redirect('/login');
     }
 }

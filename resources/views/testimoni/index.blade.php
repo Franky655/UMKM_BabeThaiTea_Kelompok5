@@ -5,7 +5,10 @@
 @section('content')
 
 <div class="container">
+<<<<<<< HEAD
     <a href="/admin/testimoni/create" class="btn btn-primary mb-1">Tambah Data</a>
+=======
+>>>>>>> origin/TengkuMR
 
     @if ($message = Session::get('message'))
         <div class="alert alert-success">
@@ -19,9 +22,14 @@
             <thead>
                 <tr>
                     <th>No</th>
+<<<<<<< HEAD
                     <th>Judul</th>
                     <th>Deskripsi</th>
                     <th>Gambar</th>
+=======
+                    <th>Nama</th>
+                    <th>Deskripsi</th>
+>>>>>>> origin/TengkuMR
                     <th>Aksi</th>
                 </tr>
             </thead>
@@ -35,9 +43,12 @@
                     <td>{{ $testimoni->title }}</td>
                     <td>{{ $testimoni->description }}</td>
                     <td>
+<<<<<<< HEAD
                         <img src="/image/{{ $testimoni->image }}" alt="" class="img-fluid" width="90">
                     </td>
                     <td>
+=======
+>>>>>>> origin/TengkuMR
                         <div class="btn-group" role="group">
                             <a href="{{ route('testimoni.edit', $testimoni->id) }}" class="btn btn-warning">Edit</a>
                             <form action="{{ route('testimoni.destroy', $testimoni->id) }}" method="POST" style="display:inline;">

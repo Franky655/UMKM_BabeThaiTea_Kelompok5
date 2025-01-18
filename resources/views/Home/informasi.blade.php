@@ -19,7 +19,11 @@
 
     <title>UMKM BABE THAI TEA</title>
 
+<<<<<<< HEAD
     <!-- navbar -->
+=======
+    <!-- NAVBAR -->
+>>>>>>> origin/TengkuMR
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#"><span class="primary">BABE</span>THAI TEA</a>
@@ -58,9 +62,13 @@
             </div>
         </div>
     </nav>
+<<<<<<< HEAD
     <!-- end navbar -->
+=======
+    <!-- END NAVBAR -->
+>>>>>>> origin/TengkuMR
 
-    <!-- breadcumbs  -->
+    <!-- HEADER  -->
     <div class="breadcumbs py-2">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center text-white">
@@ -72,10 +80,15 @@
             </div>
         </div>
     </div>
-    <!-- end breadcumbs -->
+    <!-- END HEADER -->
 
+<<<<<<< HEAD
     <!-- informasi -->
     <div class="teams bg-light mt-5 py-5">
+=======
+    <!-- INFORMASI -->
+    <div class="informasi bg-light py-5">
+>>>>>>> origin/TengkuMR
         <div class="container">
             <div class="title-container">
                 <h2 class="text-center fw-bold">INFORMASI</h2>
@@ -85,7 +98,12 @@
                 @foreach ($informasi as $informasi)
                     <div class="col-md-3" data-aos="fade-up">
                         <div class="card" style="width: 18rem;">
+<<<<<<< HEAD
                             <img src="{{ asset('image/' . $informasi->image) }}" class="card-img-top" alt="..." style="max-width: 100%; height: auto;">
+=======
+                            <img src="{{ asset('image/' . $informasi->image) }}" class="card-img-top" alt="..."
+                                style="max-width: 100%; height: auto;">
+>>>>>>> origin/TengkuMR
                             <div class="card-body text-center">
                                 <h5 class="card-title text-bold">{{ $informasi->title }}</h5>
                                 <p class="card-text text-muted">{{ $informasi->description }}</p>
@@ -96,6 +114,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <!-- end informasi -->
 
     <!-- footer -->
@@ -103,6 +122,15 @@
         <div class="footer-top bg-dark text-white p-5">
             <div class="container-fluid">
                 <div class="row align-items-center"> <!-- Tambah align-items-center -->
+=======
+    <!-- END INFORMASI -->
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+        <div class="footer-top bg-dark text-white p-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+>>>>>>> origin/TengkuMR
                     <div class="col-md-1"></div>
                     <div class="col-md-3">
                         <h4 class="fw-bold">{{ $contact->name }}</h4>
@@ -159,10 +187,16 @@
                             </li>
                         </ul>
                     </div>
+<<<<<<< HEAD
                     <div class="col-md-3 text-end"> <!-- Kurangi lebar kolom -->
                         <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
                             class="img-fluid" style="max-width: 200px; border-radius: 10px;">
                         <!-- Sesuaikan ukuran -->
+=======
+                    <div class="col-md-3 text-end">
+                        <img src="{{ asset('/lte/dist/img/Foto UMKM.jpg') }}" alt="Logo Babe Thai Tea"
+                            class="img-fluid" style="max-width: 200px; border-radius: 10px;">
+>>>>>>> origin/TengkuMR
                     </div>
                 </div>
             </div>
@@ -202,13 +236,13 @@
             </div>
         </div>
     </footer>
-    <!-- end footer  -->
+    <!-- END FOOTER -->
 
-    <!-- to top -->
+    <!-- TO TOP-->
     <a href="#" class="btn-to-top p-3">
         <i class="fa fa-chevron-up"></i>
     </a>
-    <!-- end to top -->
+    <!-- END TO TOP -->
 
     <script src="assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
