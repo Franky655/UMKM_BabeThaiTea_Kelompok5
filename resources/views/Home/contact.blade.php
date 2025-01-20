@@ -150,9 +150,7 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-3">
                         <h4 class="fw-bold">{{ $contact->name }}</h4>
-                        <p>
-                            {{ $contact->description }}
-                        </p>
+                        <br>
                         <strong>Phone</strong>: <span>{{ $contact->telepon }}</span>
                         <br />
                         <strong>Email</strong>: <span>{{ $contact->email }}</span>
@@ -161,19 +159,19 @@
                         <h4 class="fw-bold">Useful Links I</h4>
                         <ul class="list-group list-unstyled">
                             <li class="list-item">
-                                <a href="" class="text-decoration-none text-white">
+                                <a href="index" class="text-decoration-none text-white">
                                     <i class="fa fa-chevron-right primary"></i>
                                     Home
                                 </a>
                             </li>
                             <li class="list-item">
-                                <a href="" class="text-decoration-none text-white">
+                                <a href="about" class="text-decoration-none text-white">
                                     <i class="fa fa-chevron-right primary"></i>
                                     About Us
                                 </a>
                             </li>
                             <li class="list-item">
-                                <a href="" class="text-decoration-none text-white">
+                                <a href="informasi" class="text-decoration-none text-white">
                                     <i class="fa fa-chevron-right primary"></i>
                                     Informasi
                                 </a>
@@ -184,19 +182,19 @@
                         <h4 class="fw-bold">Useful Links II</h4>
                         <ul class="list-group list-unstyled">
                             <li class="list-item">
-                                <a href="" class="text-decoration-none text-white">
+                                <a href="menu" class="text-decoration-none text-white">
                                     <i class="fa fa-chevron-right primary"></i>
                                     Menu
                                 </a>
                             </li>
                             <li class="list-item">
-                                <a href="" class="text-decoration-none text-white">
+                                <a href="promo" class="text-decoration-none text-white">
                                     <i class="fa fa-chevron-right primary"></i>
                                     Promo
                                 </a>
                             </li>
                             <li class="list-item">
-                                <a href="" class="text-decoration-none text-white">
+                                <a href="contact" class="text-decoration-none text-white">
                                     <i class="fa fa-chevron-right primary"></i>
                                     Contact
                                 </a>
