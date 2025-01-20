@@ -38,12 +38,13 @@
                         <img src="/image/{{ $slider->image }}" alt="" class="img-fluid" width="90">
                     </td>
                     <td>
-                        <a href="{{ route('sliders.edit', $slider->id) }}" class="btn btn-warning">Edit</a>
-                        <form action="{{ route('sliders.destroy', $slider->id) }}" method="POST">
-                        @csrf
-                        @method('DELETE')
-                            <button type="submit" class="btn btn-danger">Hapus</button>
-                        </form>
+                        <div class="btn-group" role="group">
+                            <a href="{{ route('sliders.edit', $slider->id) }}" class="btn btn-warning">Edit</a>
+                            <form action="{{ route('sliders.destroy', $slider->id) }}" method="POST" style="display:inline;">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger">Hapus</button>
+                            </form>
                     </td>
                 </tr>
                 @endforeach
