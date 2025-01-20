@@ -22,7 +22,7 @@
       <a href="/lte/index2.html" class="h1"><b>Login</b></a>
     </div>
     <div class="card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <p class="login-box-msg">Login untuk masuk kedalam sistem</p>
 
       @error('loginError')
         <div class="alert alert-danger">
