@@ -25,6 +25,13 @@
                     @enderror
                 </div>
                 <div class="form-group">
+                    <label for="deskripsi">Deskripsi</label>
+                    <input type="text" class="form-control" name="deskripsi" value="{{ $menu->deskripsi }}">
+                    @error('deskripsi')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+                <div class="form-group">
                     <label for="image">Foto Menu</label>
                     <img src="/image/{{ $menu->image }}" alt="Menu Image" class="img-fluid mb-2" width="150">
                     <input type="file" class="form-control" name="image">

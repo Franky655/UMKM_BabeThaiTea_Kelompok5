@@ -25,6 +25,7 @@ class PromoController extends Controller
     {
             $request->validate([
                 'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+                'judul' => 'required|string|max:255',
                 'deskripsi' => 'required|string|max:255',
             ]);
 
@@ -33,6 +34,7 @@ class PromoController extends Controller
 
             Promo::create([
                 'image' => $imageName,
+                'judul' => $request->judul,
                 'deskripsi' => $request->deskripsi,
             ]);
 
@@ -55,6 +57,7 @@ class PromoController extends Controller
     {
         $request->validate([
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'judul' => 'required|string|max:255',
             'deskripsi' => 'required|string|max:255',
         ]);
 

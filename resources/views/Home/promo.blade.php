@@ -90,6 +90,9 @@
                                     <img src="image/{{ $promo->image }}" alt="" class="img-fluid"
                                         width="250">
                                 </div>
+                                <p class="card-title text-bold">
+                                    {{ $promo->judul }}
+                                </p>
                                 <p class="card-description mt-1">
                                     {{ $promo->deskripsi }}
                                 </p>

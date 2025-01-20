@@ -90,6 +90,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title text-bold">{{ $menu->nama_menu }}</h5>
                                 <p class="card-text text-muted">{{ $menu->harga }}</p>
+                                <p class="card-text text-muted">{{ $menu->deskripsi }}</p>
                             </div>
                         </div>
                     </div>

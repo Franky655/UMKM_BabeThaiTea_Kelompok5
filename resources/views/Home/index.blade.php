@@ -77,11 +77,15 @@
             @foreach ($sliders as $index => $slider)
                 <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
                     <img src="{{ asset('image/' . $slider->image) }}" class="d-block w-100 carousel-img"
-                        alt="..." />
+                        alt="{{ $slider->judul }}">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>{{ $slider->judul }}</h5>
+                        <p>{{ $slider->deskripsi }}</p>
+                    </div>
                 </div>
             @endforeach
-
         </div>
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,6 +97,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
     <!-- END SLIDER -->
 
     <!-- ABOUT US -->
@@ -163,6 +168,9 @@
                                 <div class="card-title fw-bolder mt-4">Rasa: {{ $menu->nama_menu }}</div>
                                 <p class="card-description mt-3">
                                     Rp.{{ $menu->harga }}
+                                <p class="card-description mt-3">
+                                    Deskripsi: {{ $menu->deskripsi }}
+
                                 </p>
                             </div>
                         </div>
@@ -186,7 +194,12 @@
                 @foreach ($promo as $promo)
                     <div class="col-md-6 pt-5 text-center" data-aos="zoom-in">
                         <img src="image/{{ $promo->image }}" class="img-fluid brand-image" alt="" />
+                        <div class="card-title fw-bolder mt-4">{{ $promo->judul }}</div>
+                        <p class="card-description mt-1">
+                            {{ $promo->deskripsi }}
+                        </p>
                     </div>
+
                 @endforeach
             </div>
         </div>

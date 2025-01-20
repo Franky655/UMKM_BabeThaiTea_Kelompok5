@@ -19,6 +19,7 @@
                 <tr>
                     <th>No</th>
                     <th>Foto Promo</th>
+                    <th>Judul</th>
                     <th>Deskripsi</th>
                     <th>Aksi</th>
                 </tr>
@@ -32,6 +33,7 @@
                     <td>{{ $i++ }}</td>
                     <td>
                         <img src="{{ asset('image/' . $promo->image) }}" alt="Promo Image" class="img-fluid" width="100">
+                        <td>{{ $promo->judul }}</td>
                         <td>{{ $promo->deskripsi }}</td>
                     </td>
                     <td>

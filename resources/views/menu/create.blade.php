@@ -17,12 +17,19 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                <label for="harga">Harga</label>    
+                <label for="harga">Harga</label>
                     <input type="number" class="form-control" name="harga" >
                     @error('description')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror
                 </div>
+                <div class="form-group">
+                    <label for="dekripsi">Deskripsi</label>
+                        <input type="text" class="form-control" name="deskripsi" >
+                        @error('deskripsi')
+                            <small class="text-danger">{{ $message }}</small>
+                        @enderror
+                    </div>
                 <div class="form-group">
                     <label for="image">Foto Menu</label>
                     <input type="file" class="form-control" name="image">

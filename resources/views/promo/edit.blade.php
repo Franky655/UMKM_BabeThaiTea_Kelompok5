@@ -19,6 +19,13 @@
                     @enderror
                 </div>
                 <div class="form-group">
+                    <label for="judul">Judul</label>
+                    <input type="text" class="form-control" name="judul" value="{{ $promo->judul }}">
+                    @error('judul')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+                <div class="form-group">
                     <label for="deskripsi">Deskripsi</label>
                     <input type="text" class="form-control" name="deskripsi" value="{{ $promo->deskripsi }}">
                     @error('deskripsi')

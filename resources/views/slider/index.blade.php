@@ -5,12 +5,12 @@
 @section('content')
 
 <div class="container">
-    <a href="{{ route('sliders.create') }}" class="btn btn-primary mb-1">Tambah Data</a>
+    <a href="/admin/sliders/create" class="btn btn-primary mb-1">Tambah Data</a>
 
     @if ($message = Session::get('message'))
         <div class="alert alert-success">
-            <strong>Berhasil!</strong>
-            <p>{{ $message }}</p>
+            <strong>Berhasil</strong>
+            <p>{{$message}}</p>
         </div>
     @endif
 
@@ -19,27 +19,31 @@
             <thead>
                 <tr>
                     <th>No</th>
+                    <th>Judul</th>
+                    <th>Deskripsi</th>
                     <th>Gambar</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
-                @php $i = 1 @endphp
+                @php
+                    $i = 1
+                @endphp
                 @foreach ($sliders as $slider)
                 <tr>
                     <td>{{ $i++ }}</td>
+                    <td>{{ $slider->judul }}</td>
+                    <td>{{ $slider->deskripsi }}</td>
                     <td>
                         <img src="/image/{{ $slider->image }}" alt="" class="img-fluid" width="90">
                     </td>
                     <td>
-                        <div class="btn-group" role="group">
-                            <a href="{{ route('sliders.edit', $slider->id) }}" class="btn btn-warning">Edit</a>
-                            <form action="{{ route('sliders.destroy', $slider->id) }}" method="POST" style="display:inline;">
-                                @csrf
-                                @method('DELETE')
-                                <button type="submit" class="btn btn-danger">Hapus</button>
-                            </form>
-                        </div>
+                        <a href="{{ route('sliders.edit', $slider->id) }}" class="btn btn-warning">Edit</a>
+                        <form action="{{ route('sliders.destroy', $slider->id) }}" method="POST">
+                        @csrf
+                        @method('DELETE')
+                            <button type="submit" class="btn btn-danger">Hapus</button>
+                        </form>
                     </td>
                 </tr>
                 @endforeach
@@ -47,4 +51,5 @@
         </table>
     </div>
 </div>
+
 @endsection

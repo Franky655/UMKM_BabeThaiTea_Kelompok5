@@ -25,6 +25,7 @@ class MenuController extends Controller
             'nama_menu' => 'required|string|max:255',
             'harga' => 'required|string|max:255',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'deskripsi' => 'required|string|max:255',
         ]);
 
         $imageName = time() . '.' . $request->image->extension();
@@ -34,6 +35,7 @@ class MenuController extends Controller
             'nama_menu' => $request->nama_menu,
             'harga' => $request->harga,
             'image' => $imageName,
+            'deskripsi'=> $request->deskripsi,
         ]);
 
         return redirect()->route('menu.index')->with('message', 'Data berhasil ditambahkan!');
@@ -51,6 +53,7 @@ class MenuController extends Controller
             'nama_menu' => 'required|string|max:255',
             'harga' => 'required|string|max:255',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'deskripsi' => 'required|string|max:255',
         ]);
 
         $input = $request->all();

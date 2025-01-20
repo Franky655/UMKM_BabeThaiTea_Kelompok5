@@ -20,6 +20,7 @@
                     <th>No</th>
                     <th>Nama Menu</th>
                     <th>Harga</th>
+                    <th>Deskripsi</th>
                     <th>Foto Menu</th>
                     <th>Aksi</th>
                 </tr>
@@ -33,6 +34,7 @@
                     <td>{{ $i++ }}</td>
                     <td>{{ $menu->nama_menu }}</td>
                     <td>Rp {{ number_format($menu->harga, 3) }}</td>
+                    <td>{{ $menu->deskripsi }}</td>
 
                     <td>
 

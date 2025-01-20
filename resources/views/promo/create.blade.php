@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <form action="{{ route('promo.store') }}" method="POST" enctype="multipart/form-data">
-                @csrf  
+                @csrf
                 <div class="form-group">
                     <label for="image">Foto Promo</label>
                     <input type="file" class="form-control" name="image">
@@ -17,7 +17,14 @@
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="deskripsi">Deskripsi</label>    
+                    <label for="judul">Judul</label>
+                    <input type="text" class="form-control" name="judul" >
+                    @error('judul')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+                <div class="form-group">
+                    <label for="deskripsi">Deskripsi</label>
                     <input type="text" class="form-control" name="deskripsi" >
                     @error('deskripsi')
                         <small class="text-danger">{{ $message }}</small>
